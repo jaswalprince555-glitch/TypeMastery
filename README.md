@@ -33,6 +33,7 @@ Increment operators (`++`) change the value of a variable, but *where* you place
 | `System.out.println(++engine);` | Issues the `iinc` instruction directly to the local variable array *first*. Then pushes the updated value onto the stack for the print method. |
 
 HOW THE CODE RUN IN THE TERMINAL 
+~~~
 --- 1. The Char Increment vs Addition Bypass ---
 After letter++ : b
 ASCII memory value of 'b': 98
@@ -44,3 +45,4 @@ short + short = Int: 30
 engine++ prints : 10
 ++engine prints : 12
 Final memory state: 12
+~~~
